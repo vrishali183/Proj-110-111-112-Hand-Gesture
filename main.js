@@ -40,21 +40,23 @@ function gotResult(error, results) {
     
     document.getElementById("result_object_name").innerHTML = results[0].label;
 
-    gesture = results[0].label;
+//     gesture = results[0].label;
     
     toSpeak = "";
-    
-    if(gesture == "amazing")
+    //gesture == "amazing"
+    if()
     {
       toSpeak = "This is looking amazing";
       document.getElementById("result_object_gesture_icon").innerHTML = "&#128076;";
     }
-    else if(gesture == "best")
+    //gesture == "best"
+    else if()
     {
       toSpeak = "All the best";
       document.getElementById("result_object_gesture_icon").innerHTML = "&#128077;";
     }
-    else if(gesture == "victory")
+  //  gesture == "victory"
+    else if()
     {
       toSpeak = "That was the marvelous victory";
       document.getElementById("result_object_gesture_icon").innerHTML = "&#9996;";
